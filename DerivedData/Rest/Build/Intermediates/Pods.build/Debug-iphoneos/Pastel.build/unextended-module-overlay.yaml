@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/Pastel/Pastel.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Intermediates/Pods.build/Debug-iphoneos/Pastel.build/unextended-module.modulemap',
+    }]
+  }]
+}

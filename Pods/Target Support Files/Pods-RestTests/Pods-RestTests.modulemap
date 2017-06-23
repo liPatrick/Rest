@@ -1,0 +1,6 @@
+framework module Pods_RestTests {
+  umbrella header "Pods-RestTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

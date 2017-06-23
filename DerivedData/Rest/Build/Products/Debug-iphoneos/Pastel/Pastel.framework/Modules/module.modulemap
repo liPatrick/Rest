@@ -1,0 +1,10 @@
+framework module Pastel {
+  umbrella header "Pastel-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module Pastel.Swift {
+    header "Pastel-Swift.h"
+}

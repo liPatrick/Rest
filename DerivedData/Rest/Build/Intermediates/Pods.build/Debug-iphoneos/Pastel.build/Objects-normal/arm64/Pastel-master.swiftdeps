@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "bce8452bf3490cdc20a2ef647bcc1cac"
+build_time: [551565708, 685425000]
+inputs:
+  "/Users/dbessonov/Downloads/Rest-master 2/Pods/Pastel/Pastel/Classes/PastelGradient.swift": [551565690, 0]
+  "/Users/dbessonov/Downloads/Rest-master 2/Pods/Pastel/Pastel/Classes/PastelView.swift": [551565690, 0]

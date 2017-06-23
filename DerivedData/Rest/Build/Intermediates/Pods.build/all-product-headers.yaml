@@ -1,0 +1,162 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Chameleon.h",
+          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/Pods/ChameleonFramework/Pod/Classes/Objective-C/Chameleon.h"
+        },
+        {
+          'type': 'file',
+          'name': "ChameleonConstants.h",
+          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/Pods/ChameleonFramework/Pod/Classes/Objective-C/ChameleonConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "ChameleonEnums.h",
+          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/Pods/ChameleonFramework/Pod/Classes/Objective-C/ChameleonEnums.h"
+        },
+        {
+          'type': 'file',
+          'name': "ChameleonFramework-Swift.h",
+          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonFramework-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "ChameleonFramework-umbrella.h",
+          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/Pods/Target Support Files/ChameleonFramework/ChameleonFramework-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "ChameleonMacros.h",
+          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/Pods/ChameleonFramework/Pod/Classes/Objective-C/ChameleonMacros.h"
+        },
+        {
+          'type': 'file',
+          'name': "Chameleon_.h",
+          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/Pods/ChameleonFramework/Pod/Classes/Objective-C/Chameleon_.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSArray+Chameleon.h",
+          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/Pods/ChameleonFramework/Pod/Classes/Objective-C/NSArray+Chameleon.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIAppearance+Swift.h",
+          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIAppearance+Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIButton+Chameleon.h",
+          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIButton+Chameleon.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIColor+Chameleon.h",
+          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIColor+Chameleon.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIColor+ChameleonPrivate.h",
+          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIColor+ChameleonPrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+ChameleonPrivate.h",
+          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIImage+ChameleonPrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "UILabel+Chameleon.h",
+          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/Pods/ChameleonFramework/Pod/Classes/Objective-C/UILabel+Chameleon.h"
+        },
+        {
+          'type': 'file',
+          'name': "UINavigationController+Chameleon.h",
+          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/Pods/ChameleonFramework/Pod/Classes/Objective-C/UINavigationController+Chameleon.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIView+ChameleonPrivate.h",
+          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIView+ChameleonPrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIViewController+Chameleon.h",
+          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIViewController+Chameleon.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Intermediates/Pods.build/Debug-iphoneos/ChameleonFramework.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/Pastel/Pastel.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pastel-Swift.h",
+          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/Pastel/Pastel.framework/Headers/Pastel-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pastel-umbrella.h",
+          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/Pods/Target Support Files/Pastel/Pastel-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/Pastel/Pastel.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Intermediates/Pods.build/Debug-iphoneos/Pastel.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/Pods_Rest.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Rest-umbrella.h",
+          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/Pods/Target Support Files/Pods-Rest/Pods-Rest-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_Rest-Swift.h",
+          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/Pods_Rest.framework/Headers/Pods_Rest-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/Pods_Rest.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-Rest.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
