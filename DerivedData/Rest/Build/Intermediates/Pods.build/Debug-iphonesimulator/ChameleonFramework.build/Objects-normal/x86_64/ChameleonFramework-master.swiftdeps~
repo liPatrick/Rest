@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "021f1bbe8598b744c46e7fb37cffab24"
+build_time: [551826179, 596313000]
+inputs:
+  "/Users/dbessonov/Downloads/Rest-master 2/Pods/ChameleonFramework/Pod/Classes/Swift/ChameleonShorthand.swift": [551564608, 0]
+  "/Users/dbessonov/Downloads/Rest-master 2/Pods/CustomFlowLayout.swift": [551826177, 0]

@@ -80,7 +80,7 @@
 		069FF612981F4B6AFAA84D45BCC73DA0 /* Pods-RestUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RestUITests-frameworks.sh"; sourceTree = "<group>"; };
 		10C6C88F6BE7C3DD907B5276FCB2F2E3 /* Pastel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pastel-dummy.m"; sourceTree = "<group>"; };
 		116AF1EE6DE8436C074EE76D34C1CEDC /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Chameleon.h"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.h"; sourceTree = "<group>"; };
-		1345E9ABFD36C0EA78E6F9A5FA6D1CBF /* Pods_Rest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Rest.framework; path = "Pods-Rest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1345E9ABFD36C0EA78E6F9A5FA6D1CBF /* Pods_Rest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D392DF59202E122545C00003A495E68 /* UIColor+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Chameleon.m"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.m"; sourceTree = "<group>"; };
 		1F8D058D134F96181769903F81B60119 /* Pods-RestTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RestTests-frameworks.sh"; sourceTree = "<group>"; };
 		20EEECB4195B7457E776FCD0859C7022 /* Pods-Rest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rest-resources.sh"; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 		2243C9E98089A70145B911EEADD1F1C9 /* PastelView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PastelView.swift; path = Pastel/Classes/PastelView.swift; sourceTree = "<group>"; };
 		2393C41290B8108C72CF66166F5F306C /* Pods-RestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RestTests.release.xcconfig"; sourceTree = "<group>"; };
 		26EF1B9532B1530D9D43FAFDCFFF9717 /* UIButton+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Chameleon.h"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.h"; sourceTree = "<group>"; };
-		270C5CCDA9FF675E2CB471995607FC47 /* ChameleonFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ChameleonFramework.modulemap; sourceTree = "<group>"; };
+		270C5CCDA9FF675E2CB471995607FC47 /* ChameleonFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ChameleonFramework.modulemap; sourceTree = "<group>"; };
 		288AD42757E7C5D1165CB70C77559300 /* ChameleonConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ChameleonConstants.m; path = "Pod/Classes/Objective-C/ChameleonConstants.m"; sourceTree = "<group>"; };
 		2902EDBD5F74300E163E14FFC9005ED1 /* Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon.h; path = "Pod/Classes/Objective-C/Chameleon.h"; sourceTree = "<group>"; };
 		2EB670223D7AB3B3CC5C42E2EEC2423D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,8 +101,8 @@
 		40B6957C3962F3801F8C3AB672A9EC7A /* Pods-RestUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RestUITests-dummy.m"; sourceTree = "<group>"; };
 		4CF41162F73358D88250BE5DEDCD18FC /* Pods-Rest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rest-acknowledgements.plist"; sourceTree = "<group>"; };
 		4D64B4C6BAB661072B3BF83865C9E4DF /* Pods-RestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RestUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		525DFB4F97D45101CD9BB93CD3FF4AA4 /* Pods-Rest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Rest.modulemap"; sourceTree = "<group>"; };
-		552FC1D83FE78E007D0A9FDAA81C45E6 /* Pods_RestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RestTests.framework; path = "Pods-RestTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		525DFB4F97D45101CD9BB93CD3FF4AA4 /* Pods-Rest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Rest.modulemap"; sourceTree = "<group>"; };
+		552FC1D83FE78E007D0A9FDAA81C45E6 /* Pods_RestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5713AA86905ACD4A55D17217E92CC710 /* Pastel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pastel.xcconfig; sourceTree = "<group>"; };
 		58142AB3AAAD17888E4D2970B345FF9C /* Pods-Rest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Rest-dummy.m"; sourceTree = "<group>"; };
 		59F3E21CFB8A43954C4B524909611007 /* ChameleonConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonConstants.h; path = "Pod/Classes/Objective-C/ChameleonConstants.h"; sourceTree = "<group>"; };
@@ -128,30 +128,30 @@
 		8BFE087E496EBD30618E039B8DA44071 /* Pods-RestUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RestUITests-resources.sh"; sourceTree = "<group>"; };
 		8C086119F23CEC3D70F8DE5B7B262FEB /* Pods-RestUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RestUITests-umbrella.h"; sourceTree = "<group>"; };
 		8DB8AE324A20D6081FCBCF2DAE7CC3AD /* Pods-RestUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RestUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		946643954E767C9FE9FC260BEEAA54E2 /* ChameleonFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChameleonFramework-dummy.m"; sourceTree = "<group>"; };
 		9A17755A00173814246E608FDF5BD41C /* UIView+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.h"; sourceTree = "<group>"; };
 		9BDA5FD0B963C6604FF6B5C470847074 /* Pastel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pastel-prefix.pch"; sourceTree = "<group>"; };
-		A09C4688E9AE6E1C80149876BCCD0FED /* Pods-RestTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RestTests.modulemap"; sourceTree = "<group>"; };
+		A09C4688E9AE6E1C80149876BCCD0FED /* Pods-RestTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RestTests.modulemap"; sourceTree = "<group>"; };
 		ACD0C8DA11F5D135A3BA5DA69226C200 /* Pods-Rest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Rest-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AF37A852DAAA0D7153FFDE2DB756BFE5 /* UINavigationController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+Chameleon.h"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.h"; sourceTree = "<group>"; };
 		B1D9E47B0387760BCCC426E0FAB676C5 /* Pods-RestTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RestTests-umbrella.h"; sourceTree = "<group>"; };
 		B66EDEC40AADE99830EF1E9A5572AE58 /* Pods-RestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B6E5D40351C9EC80CD97C0122415D3E8 /* ChameleonFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-umbrella.h"; sourceTree = "<group>"; };
-		BBABEE530C296922776244E0EF8508F6 /* Pastel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pastel.framework; path = Pastel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBABEE530C296922776244E0EF8508F6 /* Pastel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pastel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA4D9D827B7CD4C340339D7B330FABB /* Pods-Rest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rest.debug.xcconfig"; sourceTree = "<group>"; };
-		C039056165000505EBFE27A3198033E0 /* Pods_RestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RestUITests.framework; path = "Pods-RestUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C039056165000505EBFE27A3198033E0 /* Pods_RestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1D0BB84D59442BB091BDB71404F7880 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3722604D5B19577244AC4E2F0ED77E9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C7CB2BEB8A5B4150259785D3769A6AD6 /* Pastel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Pastel.modulemap; sourceTree = "<group>"; };
-		C9D0537D453361858DEFDC8B1A8A658B /* Pods-RestUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RestUITests.modulemap"; sourceTree = "<group>"; };
+		C7CB2BEB8A5B4150259785D3769A6AD6 /* Pastel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pastel.modulemap; sourceTree = "<group>"; };
+		C9D0537D453361858DEFDC8B1A8A658B /* Pods-RestUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RestUITests.modulemap"; sourceTree = "<group>"; };
 		D64B4B5B7A91A184ADE4E2F0DCDB304B /* Pods-RestUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RestUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DFCB5BDB33465F19B15E4158F8909CD5 /* Pods-RestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E0D0854C3C16ED0FB61C9D54F9E38CB4 /* UINavigationController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+Chameleon.m"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.m"; sourceTree = "<group>"; };
 		E1898FB8FF21884F9DB5225E46FCB6BC /* UIColor+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.h"; sourceTree = "<group>"; };
 		E3C6C82A46DA91192AD0AF97BA3DA21A /* UIView+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.m"; sourceTree = "<group>"; };
 		E5F748DA8F98E61F788C3488D6BA25DD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		EB546564392EB98D1AB51A4FE6697D9B /* ChameleonFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ChameleonFramework.framework; path = ChameleonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB546564392EB98D1AB51A4FE6697D9B /* ChameleonFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChameleonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F3C66B1AF76C9D04426A37042E32451B /* UIColor+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Chameleon.h"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.h"; sourceTree = "<group>"; };
 		F503DEA7EE8BF94074EF4EE853DE4A3F /* Chameleon_.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Chameleon_.m; path = "Pod/Classes/Objective-C/Chameleon_.m"; sourceTree = "<group>"; };
@@ -265,7 +265,6 @@
 				188496E6C6C5FAE3BCE70B8CF79CD942 /* Support Files */,
 				9AD51A73202678CA851CD85AEF78FB83 /* Swift */,
 			);
-			name = ChameleonFramework;
 			path = ChameleonFramework;
 			sourceTree = "<group>";
 		};
@@ -409,7 +408,6 @@
 				2243C9E98089A70145B911EEADD1F1C9 /* PastelView.swift */,
 				BF13D5E89F33A952E0F2513F8C791CBD /* Support Files */,
 			);
-			name = Pastel;
 			path = Pastel;
 			sourceTree = "<group>";
 		};

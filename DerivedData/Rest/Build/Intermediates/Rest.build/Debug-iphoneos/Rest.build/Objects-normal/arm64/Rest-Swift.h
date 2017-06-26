@@ -442,9 +442,14 @@ SWIFT_CLASS("_TtC4Rest14ViewController")
 @property (nonatomic) BOOL appear;
 @property (nonatomic, strong) UIButton * _Nonnull invisButton;
 @property (nonatomic, copy) NSArray<UIView *> * _Nonnull views;
+@property (nonatomic, readonly, strong) CAGradientLayer * _Nonnull gradient;
+@property (nonatomic) BOOL isNight;
 - (void)viewDidLoad;
 - (void)invisPressed;
+- (void)changeSunBackground;
 - (void)generateRandomStars;
+- (void)hideStars;
+- (void)showStars;
 - (void)initiateStarFlicker;
 - (void)starFlickerWithView:(UIView * _Nonnull)view;
 - (void)enableButtonBack;

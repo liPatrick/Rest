@@ -1,0 +1,244 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo8UIWindow", ""]
+- ["CSo8UIWindow", "visibleViewController"]
+- ["CSo8UIWindow", "getVisibleViewControllerFrom"]
+provides-dynamic-lookup:
+- "getVisibleViewControllerFrom"
+- "visibleViewController"
+depends-top-level:
+- "CastingPrecedence"
+- !private "UINavigationController"
+- !private "UITabBarController"
+- "UIViewController"
+- "UIWindow"
+depends-member:
+- !private ["Ps9AnyObject", "UIWindow"]
+- !private ["Ps9AnyObject", "getVisibleViewControllerFrom"]
+- !private ["Ps9AnyObject", "presentedViewController"]
+- !private ["Ps9AnyObject", "rootViewController"]
+- !private ["Ps9AnyObject", "selectedViewController"]
+- !private ["Ps9AnyObject", "visibleViewController"]
+- !private ["PSo15CALayerDelegate", "UIWindow"]
+- !private ["PSo15CALayerDelegate", "getVisibleViewControllerFrom"]
+- !private ["PSo15CALayerDelegate", "rootViewController"]
+- !private ["Ps7CVarArg", "UIWindow"]
+- !private ["Ps7CVarArg", "getVisibleViewControllerFrom"]
+- !private ["Ps7CVarArg", "presentedViewController"]
+- !private ["Ps7CVarArg", "rootViewController"]
+- !private ["Ps7CVarArg", "selectedViewController"]
+- !private ["Ps7CVarArg", "visibleViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "UIWindow"]
+- !private ["Ps28CustomDebugStringConvertible", "getVisibleViewControllerFrom"]
+- !private ["Ps28CustomDebugStringConvertible", "presentedViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "rootViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "selectedViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "visibleViewController"]
+- !private ["Ps23CustomStringConvertible", "UIWindow"]
+- !private ["Ps23CustomStringConvertible", "getVisibleViewControllerFrom"]
+- !private ["Ps23CustomStringConvertible", "presentedViewController"]
+- !private ["Ps23CustomStringConvertible", "rootViewController"]
+- !private ["Ps23CustomStringConvertible", "selectedViewController"]
+- !private ["Ps23CustomStringConvertible", "visibleViewController"]
+- !private ["Ps9Equatable", "UIWindow"]
+- !private ["Ps9Equatable", "getVisibleViewControllerFrom"]
+- !private ["Ps9Equatable", "presentedViewController"]
+- !private ["Ps9Equatable", "rootViewController"]
+- !private ["Ps9Equatable", "selectedViewController"]
+- !private ["Ps9Equatable", "visibleViewController"]
+- !private ["Ps8Hashable", "UIWindow"]
+- !private ["Ps8Hashable", "getVisibleViewControllerFrom"]
+- !private ["Ps8Hashable", "presentedViewController"]
+- !private ["Ps8Hashable", "rootViewController"]
+- !private ["Ps8Hashable", "selectedViewController"]
+- !private ["Ps8Hashable", "visibleViewController"]
+- !private ["PSo8NSCoding", "UIWindow"]
+- !private ["PSo8NSCoding", "getVisibleViewControllerFrom"]
+- !private ["PSo8NSCoding", "presentedViewController"]
+- !private ["PSo8NSCoding", "rootViewController"]
+- !private ["PSo8NSCoding", "selectedViewController"]
+- !private ["PSo8NSCoding", "visibleViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "presentedViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "selectedViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "visibleViewController"]
+- !private ["CSo8NSObject", "UINavigationController"]
+- !private ["CSo8NSObject", "UITabBarController"]
+- ["CSo8NSObject", "UIViewController"]
+- !private ["CSo8NSObject", "UIWindow"]
+- ["CSo8NSObject", "getVisibleViewControllerFrom"]
+- !private ["CSo8NSObject", "presentedViewController"]
+- !private ["CSo8NSObject", "rootViewController"]
+- !private ["CSo8NSObject", "selectedViewController"]
+- ["CSo8NSObject", "visibleViewController"]
+- !private ["PSo16NSObjectProtocol", "UIWindow"]
+- !private ["PSo16NSObjectProtocol", "getVisibleViewControllerFrom"]
+- !private ["PSo16NSObjectProtocol", "presentedViewController"]
+- !private ["PSo16NSObjectProtocol", "rootViewController"]
+- !private ["PSo16NSObjectProtocol", "selectedViewController"]
+- !private ["PSo16NSObjectProtocol", "visibleViewController"]
+- !private ["PSo29UIAccessibilityIdentification", "UIWindow"]
+- !private ["PSo29UIAccessibilityIdentification", "getVisibleViewControllerFrom"]
+- !private ["PSo29UIAccessibilityIdentification", "rootViewController"]
+- !private ["PSo12UIAppearance", "UIWindow"]
+- !private ["PSo12UIAppearance", "getVisibleViewControllerFrom"]
+- !private ["PSo12UIAppearance", "rootViewController"]
+- !private ["PSo21UIAppearanceContainer", "UIWindow"]
+- !private ["PSo21UIAppearanceContainer", "getVisibleViewControllerFrom"]
+- !private ["PSo21UIAppearanceContainer", "presentedViewController"]
+- !private ["PSo21UIAppearanceContainer", "rootViewController"]
+- !private ["PSo21UIAppearanceContainer", "selectedViewController"]
+- !private ["PSo21UIAppearanceContainer", "visibleViewController"]
+- !private ["PSo18UIContentContainer", "presentedViewController"]
+- !private ["PSo18UIContentContainer", "selectedViewController"]
+- !private ["PSo18UIContentContainer", "visibleViewController"]
+- !private ["PSo17UICoordinateSpace", "UIWindow"]
+- !private ["PSo17UICoordinateSpace", "getVisibleViewControllerFrom"]
+- !private ["PSo17UICoordinateSpace", "rootViewController"]
+- !private ["PSo13UIDynamicItem", "UIWindow"]
+- !private ["PSo13UIDynamicItem", "getVisibleViewControllerFrom"]
+- !private ["PSo13UIDynamicItem", "rootViewController"]
+- !private ["PSo18UIFocusEnvironment", "UIWindow"]
+- !private ["PSo18UIFocusEnvironment", "getVisibleViewControllerFrom"]
+- !private ["PSo18UIFocusEnvironment", "presentedViewController"]
+- !private ["PSo18UIFocusEnvironment", "rootViewController"]
+- !private ["PSo18UIFocusEnvironment", "selectedViewController"]
+- !private ["PSo18UIFocusEnvironment", "visibleViewController"]
+- !private ["PSo11UIFocusItem", "UIWindow"]
+- !private ["PSo11UIFocusItem", "getVisibleViewControllerFrom"]
+- !private ["PSo11UIFocusItem", "rootViewController"]
+- !private ["CSo22UINavigationController", "visibleViewController"]
+- !private ["CSo11UIResponder", "UINavigationController"]
+- !private ["CSo11UIResponder", "UITabBarController"]
+- ["CSo11UIResponder", "UIViewController"]
+- !private ["CSo11UIResponder", "UIWindow"]
+- ["CSo11UIResponder", "getVisibleViewControllerFrom"]
+- !private ["CSo11UIResponder", "presentedViewController"]
+- !private ["CSo11UIResponder", "rootViewController"]
+- !private ["CSo11UIResponder", "selectedViewController"]
+- ["CSo11UIResponder", "visibleViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "UIWindow"]
+- !private ["PSo30UIResponderStandardEditActions", "getVisibleViewControllerFrom"]
+- !private ["PSo30UIResponderStandardEditActions", "presentedViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "rootViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "selectedViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "visibleViewController"]
+- !private ["PSo16UIStateRestoring", "presentedViewController"]
+- !private ["PSo16UIStateRestoring", "selectedViewController"]
+- !private ["PSo16UIStateRestoring", "visibleViewController"]
+- !private ["CSo18UITabBarController", "selectedViewController"]
+- !private ["PSo16UITabBarDelegate", "selectedViewController"]
+- !private ["PSo18UITraitEnvironment", "UIWindow"]
+- !private ["PSo18UITraitEnvironment", "getVisibleViewControllerFrom"]
+- !private ["PSo18UITraitEnvironment", "presentedViewController"]
+- !private ["PSo18UITraitEnvironment", "rootViewController"]
+- !private ["PSo18UITraitEnvironment", "selectedViewController"]
+- !private ["PSo18UITraitEnvironment", "visibleViewController"]
+- !private ["CSo6UIView", "UINavigationController"]
+- !private ["CSo6UIView", "UITabBarController"]
+- ["CSo6UIView", "UIViewController"]
+- !private ["CSo6UIView", "UIWindow"]
+- ["CSo6UIView", "getVisibleViewControllerFrom"]
+- !private ["CSo6UIView", "rootViewController"]
+- ["CSo6UIView", "visibleViewController"]
+- !private ["CSo16UIViewController", "presentedViewController"]
+- !private ["CSo16UIViewController", "selectedViewController"]
+- !private ["CSo16UIViewController", "visibleViewController"]
+- !private ["CSo8UIWindow", "UINavigationController"]
+- !private ["CSo8UIWindow", "UITabBarController"]
+- ["CSo8UIWindow", "UIViewController"]
+- !private ["CSo8UIWindow", "UIWindow"]
+- ["CSo8UIWindow", "getVisibleViewControllerFrom"]
+- !private ["CSo8UIWindow", "rootViewController"]
+- ["CSo8UIWindow", "visibleViewController"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIWindow"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "getVisibleViewControllerFrom"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "rootViewController"]
+- !private ["Ps9_Hashable", "UIWindow"]
+- !private ["Ps9_Hashable", "getVisibleViewControllerFrom"]
+- !private ["Ps9_Hashable", "presentedViewController"]
+- !private ["Ps9_Hashable", "rootViewController"]
+- !private ["Ps9_Hashable", "selectedViewController"]
+- !private ["Ps9_Hashable", "visibleViewController"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "PSo15CALayerDelegate"
+- !private "Ps7CVarArg"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps8Hashable"
+- !private "PSo8NSCoding"
+- !private "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo22UINavigationController"
+- "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo16UIStateRestoring"
+- !private "CSo18UITabBarController"
+- !private "PSo16UITabBarDelegate"
+- !private "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "CSo16UIViewController"
+- "CSo8UIWindow"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/MediaPlayer.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AudioToolbox.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Modules/ChameleonFramework.swiftmodule/arm.swiftmodule"
+- "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/Pastel/Pastel.framework/Modules/Pastel.swiftmodule/arm.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/Chameleon_.h"
+- "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonFramework-umbrella.h"
+- "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/Pastel/Pastel.framework/Headers/Pastel-umbrella.h"
+- "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UIImage+ChameleonPrivate.h"
+- "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UIColor+ChameleonPrivate.h"
+- "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UIView+ChameleonPrivate.h"
+- "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UILabel+Chameleon.h"
+- "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UIButton+Chameleon.h"
+- "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UINavigationController+Chameleon.h"
+- "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UIViewController+Chameleon.h"
+- "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UIColor+Chameleon.h"
+- "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/NSArray+Chameleon.h"
+- "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/Chameleon.h"
+- "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonEnums.h"
+- "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonMacros.h"
+- "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonConstants.h"
+- "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UIAppearance+Swift.h"
+- "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonFramework-Swift.h"
+- "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/Pastel/Pastel.framework/Headers/Pastel-Swift.h"
+- "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Modules/module.modulemap"
+- "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/Pastel/Pastel.framework/Modules/module.modulemap"
+interface-hash: "6b022464f5874ede09f8d3c95515658a"

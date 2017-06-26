@@ -1,6 +1,6 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
 options: "7a0d85eb26d98ae7bbb8e123f92a5e35"
-build_time: [551569532, 662729000]
+build_time: [551575198, 116217000]
 inputs:
   "/Users/dbessonov/Downloads/Rest-master 2/ScrollableGraphView.swift": [551564608, 0]
   "/Users/dbessonov/Downloads/Rest-master 2/Rest/SleepData.swift": [551564608, 0]
@@ -9,7 +9,7 @@ inputs:
   "/Users/dbessonov/Downloads/Rest-master 2/AlarmModel.swift": [551564608, 0]
   "/Users/dbessonov/Downloads/Rest-master 2/Scheduler.swift": [551564608, 0]
   "/Users/dbessonov/Downloads/Rest-master 2/AlarmApplicationDelegate.swift": [551564608, 0]
-  "/Users/dbessonov/Downloads/Rest-master 2/Rest/ViewController.swift": [551569532, 0]
+  "/Users/dbessonov/Downloads/Rest-master 2/Rest/ViewController.swift": [551575197, 0]
   "/Users/dbessonov/Downloads/Rest-master 2/Rest/AlarmViewController.swift": [551564608, 0]
   "/Users/dbessonov/Downloads/Rest-master 2/UIColor+colorFromHex.swift": [551564608, 0]
   "/Users/dbessonov/Downloads/Rest-master 2/Rest/DraggableImageView.swift": [551564608, 0]

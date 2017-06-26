@@ -4,7 +4,7 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers",
+      'name': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -24,7 +24,7 @@
         {
           'type': 'file',
           'name': "ChameleonFramework-Swift.h",
-          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonFramework-Swift.h"
+          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonFramework-Swift.h"
         },
         {
           'type': 'file',
@@ -95,23 +95,23 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Modules",
+      'name': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Intermediates/Pods.build/Debug-iphoneos/ChameleonFramework.build/module.modulemap"
+          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Intermediates/Pods.build/Debug-iphonesimulator/ChameleonFramework.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/Pastel/Pastel.framework/Headers",
+      'name': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphonesimulator/Pastel/Pastel.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Pastel-Swift.h",
-          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/Pastel/Pastel.framework/Headers/Pastel-Swift.h"
+          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphonesimulator/Pastel/Pastel.framework/Headers/Pastel-Swift.h"
         },
         {
           'type': 'file',
@@ -122,18 +122,18 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/Pastel/Pastel.framework/Modules",
+      'name': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphonesimulator/Pastel/Pastel.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Intermediates/Pods.build/Debug-iphoneos/Pastel.build/module.modulemap"
+          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pastel.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/Pods_Rest.framework/Headers",
+      'name': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphonesimulator/Pods_Rest.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -143,18 +143,18 @@
         {
           'type': 'file',
           'name': "Pods_Rest-Swift.h",
-          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/Pods_Rest.framework/Headers/Pods_Rest-Swift.h"
+          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphonesimulator/Pods_Rest.framework/Headers/Pods_Rest-Swift.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphoneos/Pods_Rest.framework/Modules",
+      'name': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Products/Debug-iphonesimulator/Pods_Rest.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-Rest.build/module.modulemap"
+          'external-contents': "/Users/dbessonov/Downloads/Rest-master 2/DerivedData/Rest/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Rest.build/module.modulemap"
         }
       ]
     }
