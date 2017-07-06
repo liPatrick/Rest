@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "a3af05a5b6b022bf9e4caf662c73021d"
+build_time: [552632329, 252746000]
+inputs:
+  "/Users/pali/Desktop/Rest-master/Pods/ChameleonFramework/Pod/Classes/Swift/ChameleonShorthand.swift": [552543652, 0]

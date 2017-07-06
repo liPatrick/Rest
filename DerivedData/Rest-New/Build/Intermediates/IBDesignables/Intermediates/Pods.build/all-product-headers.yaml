@@ -1,0 +1,167 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Chameleon.h",
+          'external-contents': "/Users/pali/Desktop/Rest-master/Pods/ChameleonFramework/Pod/Classes/Objective-C/Chameleon.h"
+        },
+        {
+          'type': 'file',
+          'name': "ChameleonConstants.h",
+          'external-contents': "/Users/pali/Desktop/Rest-master/Pods/ChameleonFramework/Pod/Classes/Objective-C/ChameleonConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "ChameleonEnums.h",
+          'external-contents': "/Users/pali/Desktop/Rest-master/Pods/ChameleonFramework/Pod/Classes/Objective-C/ChameleonEnums.h"
+        },
+        {
+          'type': 'file',
+          'name': "ChameleonFramework-Swift.h",
+          'external-contents': "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonFramework-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "ChameleonFramework-umbrella.h",
+          'external-contents': "/Users/pali/Desktop/Rest-master/Pods/Target Support Files/ChameleonFramework/ChameleonFramework-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "ChameleonMacros.h",
+          'external-contents': "/Users/pali/Desktop/Rest-master/Pods/ChameleonFramework/Pod/Classes/Objective-C/ChameleonMacros.h"
+        },
+        {
+          'type': 'file',
+          'name': "Chameleon_.h",
+          'external-contents': "/Users/pali/Desktop/Rest-master/Pods/ChameleonFramework/Pod/Classes/Objective-C/Chameleon_.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSArray+Chameleon.h",
+          'external-contents': "/Users/pali/Desktop/Rest-master/Pods/ChameleonFramework/Pod/Classes/Objective-C/NSArray+Chameleon.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIAppearance+Swift.h",
+          'external-contents': "/Users/pali/Desktop/Rest-master/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIAppearance+Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIButton+Chameleon.h",
+          'external-contents': "/Users/pali/Desktop/Rest-master/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIButton+Chameleon.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIColor+Chameleon.h",
+          'external-contents': "/Users/pali/Desktop/Rest-master/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIColor+Chameleon.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIColor+ChameleonPrivate.h",
+          'external-contents': "/Users/pali/Desktop/Rest-master/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIColor+ChameleonPrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+ChameleonPrivate.h",
+          'external-contents': "/Users/pali/Desktop/Rest-master/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIImage+ChameleonPrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "UILabel+Chameleon.h",
+          'external-contents': "/Users/pali/Desktop/Rest-master/Pods/ChameleonFramework/Pod/Classes/Objective-C/UILabel+Chameleon.h"
+        },
+        {
+          'type': 'file',
+          'name': "UINavigationController+Chameleon.h",
+          'external-contents': "/Users/pali/Desktop/Rest-master/Pods/ChameleonFramework/Pod/Classes/Objective-C/UINavigationController+Chameleon.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIView+ChameleonPrivate.h",
+          'external-contents': "/Users/pali/Desktop/Rest-master/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIView+ChameleonPrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIViewController+Chameleon.h",
+          'external-contents': "/Users/pali/Desktop/Rest-master/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIViewController+Chameleon.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Intermediates/IBDesignables/Intermediates/Pods.build/Debug-iphonesimulator/ChameleonFramework.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Pods_Rest_New.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Rest-New-umbrella.h",
+          'external-contents': "/Users/pali/Desktop/Rest-master/Pods/Target Support Files/Pods-Rest-New/Pods-Rest-New-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_Rest_New-Swift.h",
+          'external-contents': "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Pods_Rest_New.framework/Headers/Pods_Rest_New-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Pods_Rest_New.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Intermediates/IBDesignables/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Rest-New.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/iCarousel/iCarousel.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "iCarousel-Swift.h",
+          'external-contents': "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/iCarousel/iCarousel.framework/Headers/iCarousel-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "iCarousel-umbrella.h",
+          'external-contents': "/Users/pali/Desktop/Rest-master/Pods/Target Support Files/iCarousel/iCarousel-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "iCarousel.h",
+          'external-contents': "/Users/pali/Desktop/Rest-master/Pods/iCarousel/iCarousel/iCarousel.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/iCarousel/iCarousel.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Intermediates/IBDesignables/Intermediates/Pods.build/Debug-iphonesimulator/iCarousel.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

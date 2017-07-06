@@ -1,0 +1,76 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SegueInfo"
+provides-nominal:
+- "V8Rest_New9SegueInfo"
+provides-member:
+- ["V8Rest_New9SegueInfo", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- "Int"
+- "SegueInfo"
+- "String"
+depends-member:
+- ["V8Rest_New9SegueInfo", "Bool"]
+- ["V8Rest_New9SegueInfo", "Int"]
+- ["V8Rest_New9SegueInfo", "String"]
+- ["V8Rest_New9SegueInfo", "curCellIndex"]
+- ["V8Rest_New9SegueInfo", "enabled"]
+- ["V8Rest_New9SegueInfo", "init"]
+- ["V8Rest_New9SegueInfo", "isEditMode"]
+- ["V8Rest_New9SegueInfo", "label"]
+- ["V8Rest_New9SegueInfo", "mediaID"]
+- ["V8Rest_New9SegueInfo", "mediaLabel"]
+- ["V8Rest_New9SegueInfo", "repeatWeekdays"]
+- ["V8Rest_New9SegueInfo", "snoozeEnabled"]
+depends-nominal:
+- "V8Rest_New9SegueInfo"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MediaPlayer.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AudioToolbox.apinotesc"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Modules/ChameleonFramework.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/Chameleon_.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonFramework-umbrella.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/iCarousel/iCarousel.framework/Headers/iCarousel-umbrella.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UIImage+ChameleonPrivate.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UIColor+ChameleonPrivate.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UIView+ChameleonPrivate.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/iCarousel/iCarousel.framework/Headers/iCarousel.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UILabel+Chameleon.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UIButton+Chameleon.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UINavigationController+Chameleon.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UIViewController+Chameleon.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UIColor+Chameleon.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/NSArray+Chameleon.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/Chameleon.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonEnums.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonMacros.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonConstants.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UIAppearance+Swift.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonFramework-Swift.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Modules/module.modulemap"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/iCarousel/iCarousel.framework/Modules/module.modulemap"
+interface-hash: "a0339bde5231eb28f185bd1fec6cf4ad"

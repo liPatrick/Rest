@@ -1,0 +1,656 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AlarmViewController"
+provides-nominal:
+- "C8Rest_New19AlarmViewController"
+provides-member:
+- ["C8Rest_New19AlarmViewController", ""]
+provides-dynamic-lookup:
+- "datePicker"
+- "didReceiveMemoryWarning"
+- "startPressed"
+- "viewDidLoad"
+depends-top-level:
+- !private "=="
+- !private "Alarm"
+- "AlarmApplicationDelegate"
+- "AlarmSchedulerDelegate"
+- "AlarmViewController"
+- "Alarms"
+- "AppDelegate"
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "Date"
+- "Scheduler"
+- !private "StringLiteralType"
+- "UIDatePicker"
+- "UIViewController"
+- !private "UUID"
+- !private "UserDefaults"
+- !private "print"
+depends-member:
+- ["PSo21AVAudioPlayerDelegate", "init"]
+- !private ["V8Rest_New5Alarm", "date"]
+- !private ["V8Rest_New5Alarm", "deinit"]
+- !private ["V8Rest_New5Alarm", "enabled"]
+- !private ["V8Rest_New5Alarm", "init"]
+- !private ["V8Rest_New5Alarm", "label"]
+- !private ["V8Rest_New5Alarm", "mediaID"]
+- !private ["V8Rest_New5Alarm", "mediaLabel"]
+- !private ["V8Rest_New5Alarm", "repeatWeekdays"]
+- !private ["V8Rest_New5Alarm", "snoozeEnabled"]
+- !private ["V8Rest_New5Alarm", "uuid"]
+- ["P8Rest_New24AlarmApplicationDelegate", "init"]
+- !private ["P8Rest_New22AlarmSchedulerDelegate", "checkNotification"]
+- !private ["P8Rest_New22AlarmSchedulerDelegate", "correctSecondComponent"]
+- ["P8Rest_New22AlarmSchedulerDelegate", "init"]
+- !private ["P8Rest_New22AlarmSchedulerDelegate", "setNotificationWithDate"]
+- !private ["C8Rest_New19AlarmViewController", "Alarm"]
+- ["C8Rest_New19AlarmViewController", "AlarmApplicationDelegate"]
+- ["C8Rest_New19AlarmViewController", "AlarmSchedulerDelegate"]
+- ["C8Rest_New19AlarmViewController", "Alarms"]
+- ["C8Rest_New19AlarmViewController", "AppDelegate"]
+- !private ["C8Rest_New19AlarmViewController", "Date"]
+- ["C8Rest_New19AlarmViewController", "Scheduler"]
+- ["C8Rest_New19AlarmViewController", "UIDatePicker"]
+- !private ["C8Rest_New19AlarmViewController", "UUID"]
+- !private ["C8Rest_New19AlarmViewController", "UserDefaults"]
+- ["C8Rest_New19AlarmViewController", "alarmDelegate"]
+- ["C8Rest_New19AlarmViewController", "alarmModel"]
+- ["C8Rest_New19AlarmViewController", "alarmScheduler"]
+- ["C8Rest_New19AlarmViewController", "datePicker"]
+- ["C8Rest_New19AlarmViewController", "deinit"]
+- ["C8Rest_New19AlarmViewController", "didReceiveMemoryWarning"]
+- ["C8Rest_New19AlarmViewController", "init"]
+- !private ["C8Rest_New19AlarmViewController", "print"]
+- ["C8Rest_New19AlarmViewController", "startPressed"]
+- ["C8Rest_New19AlarmViewController", "viewDidLoad"]
+- !private ["C8Rest_New6Alarms", "alarms"]
+- !private ["C8Rest_New6Alarms", "count"]
+- ["C8Rest_New6Alarms", "init"]
+- !private ["Ps9AnyObject", "Alarm"]
+- ["Ps9AnyObject", "Alarms"]
+- ["Ps9AnyObject", "AppDelegate"]
+- !private ["Ps9AnyObject", "Date"]
+- ["Ps9AnyObject", "Scheduler"]
+- !private ["Ps9AnyObject", "UUID"]
+- !private ["Ps9AnyObject", "UserDefaults"]
+- !private ["Ps9AnyObject", "alarmModel"]
+- !private ["Ps9AnyObject", "alarmScheduler"]
+- !private ["Ps9AnyObject", "alarms"]
+- !private ["Ps9AnyObject", "correctSecondComponent"]
+- !private ["Ps9AnyObject", "count"]
+- !private ["Ps9AnyObject", "date"]
+- !private ["Ps9AnyObject", "datePicker"]
+- !private ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "set"]
+- !private ["Ps9AnyObject", "standard"]
+- !private ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- ["C8Rest_New11AppDelegate", "deinit"]
+- ["C8Rest_New11AppDelegate", "init"]
+- !private ["Sa", "append"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "append"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "date"]
+- !private ["Ps7CVarArg", "Alarm"]
+- ["Ps7CVarArg", "Alarms"]
+- ["Ps7CVarArg", "AppDelegate"]
+- !private ["Ps7CVarArg", "Date"]
+- ["Ps7CVarArg", "Scheduler"]
+- !private ["Ps7CVarArg", "UUID"]
+- !private ["Ps7CVarArg", "UserDefaults"]
+- !private ["Ps7CVarArg", "alarmModel"]
+- !private ["Ps7CVarArg", "alarmScheduler"]
+- !private ["Ps7CVarArg", "append"]
+- !private ["Ps7CVarArg", "date"]
+- !private ["Ps7CVarArg", "datePicker"]
+- !private ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "set"]
+- !private ["Ps7CVarArg", "standard"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "append"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Alarm"]
+- ["Ps28CustomDebugStringConvertible", "Alarms"]
+- ["Ps28CustomDebugStringConvertible", "AppDelegate"]
+- !private ["Ps28CustomDebugStringConvertible", "Date"]
+- ["Ps28CustomDebugStringConvertible", "Scheduler"]
+- !private ["Ps28CustomDebugStringConvertible", "UUID"]
+- !private ["Ps28CustomDebugStringConvertible", "UserDefaults"]
+- !private ["Ps28CustomDebugStringConvertible", "alarmModel"]
+- !private ["Ps28CustomDebugStringConvertible", "alarmScheduler"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "date"]
+- !private ["Ps28CustomDebugStringConvertible", "datePicker"]
+- !private ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "set"]
+- !private ["Ps28CustomDebugStringConvertible", "standard"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "uuidString"]
+- !private ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "append"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps17CustomReflectable", "uuidString"]
+- !private ["Ps23CustomStringConvertible", "Alarm"]
+- ["Ps23CustomStringConvertible", "Alarms"]
+- ["Ps23CustomStringConvertible", "AppDelegate"]
+- !private ["Ps23CustomStringConvertible", "Date"]
+- ["Ps23CustomStringConvertible", "Scheduler"]
+- !private ["Ps23CustomStringConvertible", "UUID"]
+- !private ["Ps23CustomStringConvertible", "UserDefaults"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "alarmModel"]
+- !private ["Ps23CustomStringConvertible", "alarmScheduler"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "date"]
+- !private ["Ps23CustomStringConvertible", "datePicker"]
+- !private ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "set"]
+- !private ["Ps23CustomStringConvertible", "standard"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "uuidString"]
+- !private ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["V10Foundation4Date", "init"]
+- !private ["Ps9Equatable", "Alarm"]
+- ["Ps9Equatable", "Alarms"]
+- ["Ps9Equatable", "AppDelegate"]
+- !private ["Ps9Equatable", "Date"]
+- ["Ps9Equatable", "Scheduler"]
+- !private ["Ps9Equatable", "UUID"]
+- !private ["Ps9Equatable", "UserDefaults"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "alarmModel"]
+- !private ["Ps9Equatable", "alarmScheduler"]
+- !private ["Ps9Equatable", "date"]
+- !private ["Ps9Equatable", "datePicker"]
+- !private ["Ps9Equatable", "didReceiveMemoryWarning"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "set"]
+- !private ["Ps9Equatable", "standard"]
+- !private ["Ps9Equatable", "uuidString"]
+- !private ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "append"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "Alarm"]
+- ["Ps8Hashable", "Alarms"]
+- ["Ps8Hashable", "AppDelegate"]
+- !private ["Ps8Hashable", "Date"]
+- ["Ps8Hashable", "Scheduler"]
+- !private ["Ps8Hashable", "UUID"]
+- !private ["Ps8Hashable", "UserDefaults"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "alarmModel"]
+- !private ["Ps8Hashable", "alarmScheduler"]
+- !private ["Ps8Hashable", "date"]
+- !private ["Ps8Hashable", "datePicker"]
+- !private ["Ps8Hashable", "didReceiveMemoryWarning"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "set"]
+- !private ["Ps8Hashable", "standard"]
+- !private ["Ps8Hashable", "uuidString"]
+- !private ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "append"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["PSo8NSCoding", "Alarm"]
+- ["PSo8NSCoding", "Alarms"]
+- ["PSo8NSCoding", "AppDelegate"]
+- !private ["PSo8NSCoding", "Date"]
+- ["PSo8NSCoding", "Scheduler"]
+- !private ["PSo8NSCoding", "UUID"]
+- !private ["PSo8NSCoding", "UserDefaults"]
+- !private ["PSo8NSCoding", "alarmModel"]
+- !private ["PSo8NSCoding", "alarmScheduler"]
+- !private ["PSo8NSCoding", "date"]
+- !private ["PSo8NSCoding", "datePicker"]
+- !private ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "print"]
+- !private ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "Alarm"]
+- ["PSo26NSExtensionRequestHandling", "Alarms"]
+- ["PSo26NSExtensionRequestHandling", "AppDelegate"]
+- !private ["PSo26NSExtensionRequestHandling", "Date"]
+- ["PSo26NSExtensionRequestHandling", "Scheduler"]
+- !private ["PSo26NSExtensionRequestHandling", "UUID"]
+- !private ["PSo26NSExtensionRequestHandling", "UserDefaults"]
+- !private ["PSo26NSExtensionRequestHandling", "alarmModel"]
+- !private ["PSo26NSExtensionRequestHandling", "alarmScheduler"]
+- !private ["PSo26NSExtensionRequestHandling", "datePicker"]
+- !private ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- !private ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "Alarm"]
+- ["CSo8NSObject", "AlarmApplicationDelegate"]
+- ["CSo8NSObject", "AlarmSchedulerDelegate"]
+- ["CSo8NSObject", "Alarms"]
+- ["CSo8NSObject", "AppDelegate"]
+- !private ["CSo8NSObject", "Date"]
+- ["CSo8NSObject", "Scheduler"]
+- ["CSo8NSObject", "UIDatePicker"]
+- !private ["CSo8NSObject", "UUID"]
+- !private ["CSo8NSObject", "UserDefaults"]
+- ["CSo8NSObject", "alarmDelegate"]
+- ["CSo8NSObject", "alarmModel"]
+- ["CSo8NSObject", "alarmScheduler"]
+- !private ["CSo8NSObject", "date"]
+- ["CSo8NSObject", "datePicker"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "set"]
+- !private ["CSo8NSObject", "standard"]
+- ["CSo8NSObject", "startPressed"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "Alarm"]
+- ["PSo16NSObjectProtocol", "Alarms"]
+- ["PSo16NSObjectProtocol", "AppDelegate"]
+- !private ["PSo16NSObjectProtocol", "Date"]
+- ["PSo16NSObjectProtocol", "Scheduler"]
+- !private ["PSo16NSObjectProtocol", "UUID"]
+- !private ["PSo16NSObjectProtocol", "UserDefaults"]
+- !private ["PSo16NSObjectProtocol", "alarmModel"]
+- !private ["PSo16NSObjectProtocol", "alarmScheduler"]
+- !private ["PSo16NSObjectProtocol", "date"]
+- !private ["PSo16NSObjectProtocol", "datePicker"]
+- !private ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "set"]
+- !private ["PSo16NSObjectProtocol", "standard"]
+- !private ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["P8Rest_New11Persistable", "alarms"]
+- !private ["P8Rest_New11Persistable", "count"]
+- ["P8Rest_New11Persistable", "init"]
+- !private ["P8Rest_New19PropertyReflectable", "date"]
+- !private ["P8Rest_New19PropertyReflectable", "enabled"]
+- !private ["P8Rest_New19PropertyReflectable", "init"]
+- !private ["P8Rest_New19PropertyReflectable", "label"]
+- !private ["P8Rest_New19PropertyReflectable", "mediaID"]
+- !private ["P8Rest_New19PropertyReflectable", "mediaLabel"]
+- !private ["P8Rest_New19PropertyReflectable", "repeatWeekdays"]
+- !private ["P8Rest_New19PropertyReflectable", "snoozeEnabled"]
+- !private ["P8Rest_New19PropertyReflectable", "uuid"]
+- !private ["Ps22RandomAccessCollection", "append"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["P10Foundation20ReferenceConvertible", "uuidString"]
+- !private ["C8Rest_New9Scheduler", "correctSecondComponent"]
+- ["C8Rest_New9Scheduler", "deinit"]
+- ["C8Rest_New9Scheduler", "init"]
+- !private ["Ps8Sequence", "append"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "date"]
+- !private ["PSo12UIAppearance", "date"]
+- !private ["PSo21UIAppearanceContainer", "Alarm"]
+- ["PSo21UIAppearanceContainer", "Alarms"]
+- ["PSo21UIAppearanceContainer", "AppDelegate"]
+- !private ["PSo21UIAppearanceContainer", "Date"]
+- ["PSo21UIAppearanceContainer", "Scheduler"]
+- !private ["PSo21UIAppearanceContainer", "UUID"]
+- !private ["PSo21UIAppearanceContainer", "UserDefaults"]
+- !private ["PSo21UIAppearanceContainer", "alarmModel"]
+- !private ["PSo21UIAppearanceContainer", "alarmScheduler"]
+- !private ["PSo21UIAppearanceContainer", "date"]
+- !private ["PSo21UIAppearanceContainer", "datePicker"]
+- !private ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- !private ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo21UIApplicationDelegate", "init"]
+- !private ["PSo18UIContentContainer", "Alarm"]
+- ["PSo18UIContentContainer", "Alarms"]
+- ["PSo18UIContentContainer", "AppDelegate"]
+- !private ["PSo18UIContentContainer", "Date"]
+- ["PSo18UIContentContainer", "Scheduler"]
+- !private ["PSo18UIContentContainer", "UUID"]
+- !private ["PSo18UIContentContainer", "UserDefaults"]
+- !private ["PSo18UIContentContainer", "alarmModel"]
+- !private ["PSo18UIContentContainer", "alarmScheduler"]
+- !private ["PSo18UIContentContainer", "datePicker"]
+- !private ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "print"]
+- !private ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "date"]
+- !private ["PSo17UICoordinateSpace", "date"]
+- !private ["CSo12UIDatePicker", "date"]
+- !private ["PSo13UIDynamicItem", "date"]
+- !private ["PSo18UIFocusEnvironment", "Alarm"]
+- ["PSo18UIFocusEnvironment", "Alarms"]
+- ["PSo18UIFocusEnvironment", "AppDelegate"]
+- !private ["PSo18UIFocusEnvironment", "Date"]
+- ["PSo18UIFocusEnvironment", "Scheduler"]
+- !private ["PSo18UIFocusEnvironment", "UUID"]
+- !private ["PSo18UIFocusEnvironment", "UserDefaults"]
+- !private ["PSo18UIFocusEnvironment", "alarmModel"]
+- !private ["PSo18UIFocusEnvironment", "alarmScheduler"]
+- !private ["PSo18UIFocusEnvironment", "date"]
+- !private ["PSo18UIFocusEnvironment", "datePicker"]
+- !private ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- !private ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "date"]
+- !private ["CSo11UIResponder", "Alarm"]
+- ["CSo11UIResponder", "AlarmApplicationDelegate"]
+- ["CSo11UIResponder", "AlarmSchedulerDelegate"]
+- ["CSo11UIResponder", "Alarms"]
+- ["CSo11UIResponder", "AppDelegate"]
+- !private ["CSo11UIResponder", "Date"]
+- ["CSo11UIResponder", "Scheduler"]
+- ["CSo11UIResponder", "UIDatePicker"]
+- !private ["CSo11UIResponder", "UUID"]
+- !private ["CSo11UIResponder", "UserDefaults"]
+- ["CSo11UIResponder", "alarmDelegate"]
+- ["CSo11UIResponder", "alarmModel"]
+- ["CSo11UIResponder", "alarmScheduler"]
+- !private ["CSo11UIResponder", "date"]
+- ["CSo11UIResponder", "datePicker"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "startPressed"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "Alarm"]
+- ["PSo30UIResponderStandardEditActions", "Alarms"]
+- ["PSo30UIResponderStandardEditActions", "AppDelegate"]
+- !private ["PSo30UIResponderStandardEditActions", "Date"]
+- ["PSo30UIResponderStandardEditActions", "Scheduler"]
+- !private ["PSo30UIResponderStandardEditActions", "UUID"]
+- !private ["PSo30UIResponderStandardEditActions", "UserDefaults"]
+- !private ["PSo30UIResponderStandardEditActions", "alarmModel"]
+- !private ["PSo30UIResponderStandardEditActions", "alarmScheduler"]
+- !private ["PSo30UIResponderStandardEditActions", "date"]
+- !private ["PSo30UIResponderStandardEditActions", "datePicker"]
+- !private ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "print"]
+- !private ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo16UIStateRestoring", "Alarm"]
+- ["PSo16UIStateRestoring", "Alarms"]
+- ["PSo16UIStateRestoring", "AppDelegate"]
+- !private ["PSo16UIStateRestoring", "Date"]
+- ["PSo16UIStateRestoring", "Scheduler"]
+- !private ["PSo16UIStateRestoring", "UUID"]
+- !private ["PSo16UIStateRestoring", "UserDefaults"]
+- !private ["PSo16UIStateRestoring", "alarmModel"]
+- !private ["PSo16UIStateRestoring", "alarmScheduler"]
+- !private ["PSo16UIStateRestoring", "datePicker"]
+- !private ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "print"]
+- !private ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "Alarm"]
+- ["PSo18UITraitEnvironment", "Alarms"]
+- ["PSo18UITraitEnvironment", "AppDelegate"]
+- !private ["PSo18UITraitEnvironment", "Date"]
+- ["PSo18UITraitEnvironment", "Scheduler"]
+- !private ["PSo18UITraitEnvironment", "UUID"]
+- !private ["PSo18UITraitEnvironment", "UserDefaults"]
+- !private ["PSo18UITraitEnvironment", "alarmModel"]
+- !private ["PSo18UITraitEnvironment", "alarmScheduler"]
+- !private ["PSo18UITraitEnvironment", "date"]
+- !private ["PSo18UITraitEnvironment", "datePicker"]
+- !private ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- !private ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "date"]
+- !private ["CSo16UIViewController", "Alarm"]
+- ["CSo16UIViewController", "AlarmApplicationDelegate"]
+- ["CSo16UIViewController", "AlarmSchedulerDelegate"]
+- ["CSo16UIViewController", "Alarms"]
+- ["CSo16UIViewController", "AppDelegate"]
+- !private ["CSo16UIViewController", "Date"]
+- ["CSo16UIViewController", "Scheduler"]
+- ["CSo16UIViewController", "UIDatePicker"]
+- !private ["CSo16UIViewController", "UUID"]
+- !private ["CSo16UIViewController", "UserDefaults"]
+- ["CSo16UIViewController", "alarmDelegate"]
+- ["CSo16UIViewController", "alarmModel"]
+- ["CSo16UIViewController", "alarmScheduler"]
+- ["CSo16UIViewController", "datePicker"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "startPressed"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["V10Foundation4UUID", "init"]
+- !private ["V10Foundation4UUID", "uuidString"]
+- !private ["CSo12UserDefaults", "set"]
+- !private ["CSo12UserDefaults", "standard"]
+- !private ["Ps14_ArrayProtocol", "append"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "append"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "date"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "Alarm"]
+- ["Ps9_Hashable", "Alarms"]
+- ["Ps9_Hashable", "AppDelegate"]
+- !private ["Ps9_Hashable", "Date"]
+- ["Ps9_Hashable", "Scheduler"]
+- !private ["Ps9_Hashable", "UUID"]
+- !private ["Ps9_Hashable", "UserDefaults"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "alarmModel"]
+- !private ["Ps9_Hashable", "alarmScheduler"]
+- !private ["Ps9_Hashable", "date"]
+- !private ["Ps9_Hashable", "datePicker"]
+- !private ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "set"]
+- !private ["Ps9_Hashable", "standard"]
+- !private ["Ps9_Hashable", "uuidString"]
+- !private ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "append"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "append"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps17_MutableIndexable", "append"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "uuidString"]
+- !private ["Ps22_RandomAccessIndexable", "append"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "append"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+depends-nominal:
+- "PSo21AVAudioPlayerDelegate"
+- !private "V8Rest_New5Alarm"
+- "P8Rest_New24AlarmApplicationDelegate"
+- "P8Rest_New22AlarmSchedulerDelegate"
+- "C8Rest_New19AlarmViewController"
+- "C8Rest_New6Alarms"
+- "Ps9AnyObject"
+- "C8Rest_New11AppDelegate"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "V10Foundation4Date"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "P8Rest_New11Persistable"
+- !private "P8Rest_New19PropertyReflectable"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "P10Foundation20ReferenceConvertible"
+- "C8Rest_New9Scheduler"
+- !private "Ps8Sequence"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo21UIApplicationDelegate"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "CSo12UIDatePicker"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "V10Foundation4UUID"
+- !private "CSo12UserDefaults"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MediaPlayer.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AudioToolbox.apinotesc"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Modules/ChameleonFramework.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/Chameleon_.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonFramework-umbrella.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/iCarousel/iCarousel.framework/Headers/iCarousel-umbrella.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UIImage+ChameleonPrivate.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UIColor+ChameleonPrivate.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UIView+ChameleonPrivate.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/iCarousel/iCarousel.framework/Headers/iCarousel.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UILabel+Chameleon.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UIButton+Chameleon.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UINavigationController+Chameleon.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UIViewController+Chameleon.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UIColor+Chameleon.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/NSArray+Chameleon.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/Chameleon.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonEnums.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonMacros.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonConstants.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UIAppearance+Swift.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonFramework-Swift.h"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Modules/module.modulemap"
+- "/Users/pali/Desktop/Rest-master/DerivedData/Rest-New/Build/Products/Debug-iphoneos/iCarousel/iCarousel.framework/Modules/module.modulemap"
+interface-hash: "03383cd38b688af564714c2dbde0024c"
