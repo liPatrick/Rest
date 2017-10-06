@@ -96,7 +96,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, AVAudioPlayerDelegate, Al
             
             //UserDefaults.standard.set(true, forKey: "sun")
             print("sun annimation start!")
-            if(elapsedMinutes >= 1){
+            if(elapsedMinutes >= 60){
                 //do danny code
                 if var plistFile = PlistFile(named: "SleepData") {
                     var tempDict : [String : Any] = plistFile.dictionary!
@@ -218,7 +218,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, AVAudioPlayerDelegate, Al
                 let elapsedSeconds = Int(startTime.timeIntervalSinceNow) * -1
                 let elapsedMinutes = elapsedSeconds/60
                 
-                if(elapsedMinutes >= 1){
+                if(elapsedMinutes >= 60){
                     //do danny code
                     if var plistFile = PlistFile(named: "SleepData") {
                         var tempDict : [String : Any] = plistFile.dictionary!

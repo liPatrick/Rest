@@ -142,8 +142,8 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate, AlertOnboar
     var alertView: AlertOnboarding!
     
     var arrayOfImage = ["6sScaledSunScreen"]
-    var arrayOfTitle = ["CREATE ACCOUNT"]
-    var arrayOfDescription = ["In your profile, you can view the statistics of its operations and the recommandations of friends"]
+    var arrayOfTitle = ["Welcome to Rest"]
+    var arrayOfDescription = ["Tap on the Sun to set alarm. Only do this when you are about to go to sleep in order to receive accurate sleep data."]
     
     
     //all outlets for views that need to be repositioned
