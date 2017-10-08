@@ -182,6 +182,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate, AlertOnboar
         
         //setting the size of all views
         let screenHeight = UIScreen.main.bounds.height
+        print(screenHeight)
         if(screenHeight == 736 ){
             print("iphone 7+")
             self.help.frame = CGRect(x: 369, y: 28, width: 25, height: 25)
@@ -233,6 +234,31 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate, AlertOnboar
             
             
             print("iphone 5")
+        }
+        else if screenHeight == 480 {
+            print("here")
+            self.help.frame = CGRect(x: 285, y: 20, width: 25, height: 25)
+            self.wakeUp.frame = CGRect(x: 122, y: 20, width: 74, height: 18)
+            self.invisAlarm.frame = CGRect(x: 87, y: 56, width: 118, height: 53)
+            self.alarmTime.frame = CGRect(x: 34, y: 46, width: 171, height: 72)
+            self.AMPMLabel.frame = CGRect(x: 213, y: 86, width: 42, height: 18)
+            self.sun.frame = CGRect(x: 129, y: 176, width: 60, height: 60)
+            self.line.frame = CGRect(x: 110, y: 290, width: 100, height: 2)
+
+            self.oneTime.frame = CGRect(x: 14, y: 366, width: 67, height: 18)
+            self.oneCycle.frame = CGRect(x: 37, y: 392, width: 20, height: 42)
+            self.oneCycleText.frame = CGRect(x: 26, y: 442, width: 41, height: 18)
+            self.twoTime.frame = CGRect(x: 133, y: 366, width: 67, height: 18)
+            self.twoCycle.frame = CGRect(x: 153, y: 392, width: 20, height: 42)
+            self.twoCycleText.frame = CGRect(x: 143, y: 442, width: 41, height: 18)
+            self.threeTime.frame = CGRect(x: 253, y: 366, width: 67, height: 18)
+            self.threeCycle.frame = CGRect(x: 273, y: 392, width: 20, height: 42)
+            self.threeCycleText.frame = CGRect(x: 263, y: 442, width: 41, height: 18)
+            self.hiddenText.frame = CGRect(x: 47, y: 404, width: 257, height: 18)
+            self.sunYPosition = 176
+            self.sunYAnnimatePosition = 290
+
+            print("iphone 4")
         }
         
         

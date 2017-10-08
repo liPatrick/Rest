@@ -55,6 +55,12 @@ class SleepChartView: UIViewController {
 
             print("iphone 5")
         }
+        else if screenHeight == 480{
+            self.sleepChartLabel.frame = CGRect(x: 101, y: 10, width: 128, height: 30)
+            self.graphView.frame = CGRect(x: 4, y: 99, width: 313, height: 371)
+            self.noDataAvailableLabel.frame = CGRect(x: 65, y: 257, width: 200, height: 30)
+
+        }
         
         for var i in 0 ..< 100  {
             self.generateRandomStars()
@@ -87,22 +93,30 @@ class SleepChartView: UIViewController {
                 print(retrievedData)
 
                 //sort
-                var j = 0
-                var flag = true
-                var temp: Date
-                var temp2: Double
-                while (flag){
-                    flag = false
-                    for j in 0...dates.count-2 {
-                        if (dates[j] < dates[j+1]) {
-                            temp = dates[j]
-                            dates[j] = dates[j+1]
-                            dates[j+1] = temp
-                            flag = true
+                if(dates.count == 0){
 
-                            temp2 = Double(data[j])
-                            data[j] = data[j+1]
-                            data[j+1] = Double(Int(temp2))
+                }
+                else if(dates.count == 1){
+                }
+                else{
+                    var j = 0
+                    var flag = true
+                    var temp: Date
+                    var temp2: Double
+                    while (flag){
+                        flag = false
+                        print(dates.count)
+                        for j in 0...dates.count-2 {
+                            if (dates[j] < dates[j+1]) {
+                                temp = dates[j]
+                                dates[j] = dates[j+1]
+                                dates[j+1] = temp
+                                flag = true
+
+                                temp2 = Double(data[j])
+                                data[j] = data[j+1]
+                                data[j+1] = Double(Int(temp2))
+                            }
                         }
                     }
                 }

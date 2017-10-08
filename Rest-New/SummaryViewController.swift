@@ -12,7 +12,12 @@ func standardDeviation(arr : [Double]) -> Double {
     let length = Double(arr.count)
     let avg = arr.reduce(0, {$0 + $1}) / length
     let sumOfSquaredAvgDiff = arr.map { pow($0 - avg, 2.0)}.reduce(0, {$0 + $1})
-    return sqrt(sumOfSquaredAvgDiff / length)
+    if(sqrt(sumOfSquaredAvgDiff / length) < 100) {
+        return sqrt(sumOfSquaredAvgDiff / length)
+    }
+    else {
+        return Double(10)
+    }
 }
 
 class SummaryViewController: UIViewController {
@@ -63,7 +68,7 @@ class SummaryViewController: UIViewController {
             self.sleepTime.frame = CGRect(x: 41, y: 514, width: 126, height: 72)
             self.sleepTimeLabel.frame = CGRect(x: 68, y: 594, width: 99, height: 18)
             self.sleepQuality.frame = CGRect(x: 247, y: 527, width: 103, height: 46)
-            self.sleepQualityLabel.frame = CGRect(x: 258, y: 594, width: 80, height: 18)
+            self.sleepQualityLabel.frame = CGRect(x: 258, y: 594, width: 82, height: 18)
             self.horizLine1.frame = CGRect(x: 65, y: 311, width: 282, height: 1)
             self.horizLine2.frame = CGRect(x: 65, y: 499, width: 282, height: 1)
             self.vertLine.frame = CGRect(x: 207, y: 179, width: 1, height: 449)
@@ -84,12 +89,33 @@ class SummaryViewController: UIViewController {
             self.sleepTime.frame = CGRect(x: 14, y: 398, width: 126, height: 72)
             self.sleepTimeLabel.frame = CGRect(x: 41, y: 478, width: 99, height: 18)
             self.sleepQuality.frame = CGRect(x: 182, y: 411, width: 103, height: 46)
-            self.sleepQualityLabel.frame = CGRect(x: 193, y: 478, width: 80, height: 18)
+            self.sleepQualityLabel.frame = CGRect(x: 193, y: 478, width: 82, height: 18)
             self.horizLine1.frame = CGRect(x: 32, y: 239, width: 257, height: 1)
             self.horizLine2.frame = CGRect(x: 32, y: 379, width: 257, height: 1)
             self.vertLine.frame = CGRect(x: 160, y: 130, width: 1, height: 366)
 
             print("iphone 5")
+        }
+        else if screenHeight == 480{
+            self.sleepDataLabel.frame = CGRect(x: 99, y: 0, width: 118, height: 30)
+            self.sleepCycles.frame = CGRect(x: 34, y: 51, width: 72, height: 48)
+            self.sleepCyclesLabel.frame = CGRect(x: 17, y: 118, width: 112, height: 18)
+            self.suggestedCycles.frame = CGRect(x: 200, y: 51, width: 72, height: 46)
+            self.suggestedCyclesLabel.frame = CGRect(x: 183, y: 118, width: 115, height: 18)
+            self.bedTime.frame = CGRect(x: 5, y: 203, width: 106, height: 72)
+            self.bedTimeam.frame = CGRect(x: 118, y: 238, width: 32, height: 18)
+            self.bedTimeLabel.frame = CGRect(x: 25, y: 283, width: 90, height: 18)
+            self.wakeTime.frame = CGRect(x: 170, y: 203, width: 106, height: 72)
+            self.wakeTimeam.frame = CGRect(x: 284, y: 238, width: 32, height: 18)
+            self.wakeTimeLabel.frame = CGRect(x: 191, y: 283, width: 99, height: 18)
+            self.sleepTime.frame = CGRect(x: 7, y: 366, width: 126, height: 72)
+            self.sleepTimeLabel.frame = CGRect(x: 21, y: 446, width: 99, height: 18)
+            self.sleepQuality.frame = CGRect(x: 189, y: 379, width: 103, height: 46)
+            self.sleepQualityLabel.frame = CGRect(x: 200, y: 446, width: 82, height: 18)
+            self.horizLine1.frame = CGRect(x: 17, y: 181, width: 257, height: 1)
+            self.horizLine2.frame = CGRect(x: 17, y: 345, width: 257, height: 1)
+            self.vertLine.frame = CGRect(x: 158, y: 59, width: 1, height: 366)
+
         }
 
 
@@ -151,7 +177,7 @@ class SummaryViewController: UIViewController {
             let standardDev = standardDeviation(arr: totalTimesArray)
 
             self.suggestedCycles.text = String(Int(6 - standardDev))
-            self.sleepQuality.text = String(100 - Int(standardDev * 5))
+            self.sleepQuality.text = String(100 - Int(standardDev * 5)) + "%"
         }
 
         else {

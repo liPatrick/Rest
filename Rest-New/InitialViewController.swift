@@ -32,11 +32,16 @@ class InitialViewController: UIViewController {
             print("iphone 7+")
         }
         else if (screenHeight == 568){
-            self.paging.frame = CGRect(x: 141, y: 521, width: 39, height: 37)
             self.container.frame = CGRect(x: 0, y: 0, width: 320, height: 568)
+            self.paging.frame = CGRect(x: 141, y: 521, width: 39, height: 37)
             print("iphone 5")
         }
-        
+        else if screenHeight == 480{
+            self.container.frame = CGRect(x: 0, y: 0, width: 320, height: 480)
+            self.paging.frame = CGRect(x: 141, y: 423, width: 39, height: 37)
+
+        }
+
 
         paging.addTarget(self, action: #selector(InitialViewController.didChangePageControlValue), for: .valueChanged)
     }
